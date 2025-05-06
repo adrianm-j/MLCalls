@@ -73,6 +73,14 @@ To optimize call efficiency while maintaining revenue, we suggest:
 | Full Dataset (No Model) | 41,188 | 4,640 | $41,696 | 11.27% |
 | Model Applied (Only Predicted "Yes" Calls) | 4,424 | 2,876 | $194,688 | 65% |
 
+## Scalability of the product
+#### Model Deployment
+- Wrap the model with FastAPI to deploy it as a microservice
+- Deploy using Docker on a cloud solution for scalable inference.
+- Automated model deployment (CD/CI)
+#### Traning and improve the accuracy
+- Monitor the results and retrain with the new data
+
 ## Conclusion
 By applying the model, call volume **reduces significantly**, and the **conversion rate increases to 64%**, leading to a **substantial boost in net profit**.
 
