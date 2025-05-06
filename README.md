@@ -71,9 +71,7 @@ To optimize call efficiency while maintaining revenue, we suggest:
 | Approach | Calls Made | Yes Responses | Net Profit | Conversion Rate |
 |----------|------------|---------------|------------|-----------------|
 | Full Dataset (No Model) | 41,188 | 4,640 | $41,696 | 11.27% |
-| Model Applied           | 4,424 | 2,876 | $194,688 | 65% |
-| (Only Predicted         |
-| "Yes" Calls)            |
+| Model Applied (Only Predicted "Yes" Calls) | 4,424 | 2,876 | $194,688 | 65% |
 
 ## Conclusion
 By applying the model, call volume **reduces significantly**, and the **conversion rate increases to 64%**, leading to a **substantial boost in net profit**.
